@@ -1,0 +1,10 @@
+'''lista = ["abacaxi", "laranja"]
+
+for itens in lista:
+    print(itens)
+'''
+
+usuario = {'nome': 'Adriano', 'idade': 30, 'email':'adriano@email.com'}
+
+for chave, valor in usuario.items:
+    print(f'Chave: {chave}, Valor{valor}')
