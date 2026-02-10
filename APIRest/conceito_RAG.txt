@@ -1,0 +1,8 @@
+RAG (Retrieval-Augmented Generation) é uma técnica para otimizar a saída de um LLM.
+Em vez de confiar apenas no treinamento prévio do modelo, o RAG consulta uma base de conhecimento externa.
+1. O usuário faz uma pergunta.
+2. O sistema busca trechos relevantes em documentos (como este arquivo).
+3. O sistema envia a pergunta + os trechos para a IA.
+4. A IA gera uma resposta precisa baseada nesses dados.
+Fim do arquivo.
+Proximo passo: MCP.
