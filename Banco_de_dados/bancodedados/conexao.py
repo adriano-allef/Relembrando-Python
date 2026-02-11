@@ -4,10 +4,7 @@ conexao = psycopg.connect('postgresql://postgres:postgres@localhost/biblioteca')
 
 cursor = conexao.cursor()
 
-todos_livros = cursor.execute('select * from livros')
+'''todos_livros = cursor.execute('select * from livros')
 
-print(todos_livros.fetchall())
+print(todos_livros.fetchall())'''
 
-todos_autores = cursor.execute('select * from autores')
-
-print(todos_autores.fetchall())
